@@ -1,0 +1,13 @@
+/* import css */
+@import "./color.css";
+/**/
+/* Classes Gerais */
+section.session-hero {
+    width:100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/**/
