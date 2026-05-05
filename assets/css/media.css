@@ -34,7 +34,7 @@
 @media screen and (max-width:959px) {
 
     section.session-hero {
-        height: 130vh;
+        height: 185vh;
     }
 
 
@@ -207,6 +207,74 @@
 }
 
 
+@media screen and (max-width:430px) {
+      .title-plataform h1 {
+        font-size: 1.5rem;
+        max-width: 380px;
 
+    }
+
+    .title-plataform p {
+        font-size: 0.8rem;
+        max-width: 370px;
+    }
+
+      .grop-blue {
+        width:350px;
+        margin: 10px auto;
+    }
+
+     .grop-blue h3 {
+        font-size: 0.6rem;
+     }
+
+    form.form-register {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .button-submit input[type=submit] {
+        font-size:0.8rem;
+    
+
+    }
+
+
+}
+
+@media screen and (max-width:375px) {
+      .title-plataform h1 {
+        font-size: 1.5rem;
+        max-width: 380px;
+
+    }
+
+    .title-plataform p {
+        font-size: 0.7rem;
+        max-width: 350px;
+    }
+
+      .grop-blue {
+        width:325px;
+        margin: 10px auto;
+    }
+
+     .grop-blue h3 {
+        font-size: 0.6rem;
+     }
+
+    form.form-register {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .button-submit input[type=submit] {
+        font-size:0.8rem;
+    
+
+    }
+
+
+}
 
 /***/
