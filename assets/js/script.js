@@ -34,32 +34,44 @@ function removerErro(input) {
 formRegister.addEventListener("submit", function(evento) {
      evento.preventDefault();
 
+     let formularioValido = true;
+
       if(inputNome.value.trim() === "") {
         mostrarErro(inputNome, "Nome não pode estar vazio");
+           formularioValido = false;
       } else {
          removerErro(inputNome);
       }
 
       if(inputSobrenome.value.trim() === "") {
         mostrarErro(inputSobrenome, "Sobrenome não pode estar vazio");
+         formularioValido = false;
       } else {
         removerErro(inputSobrenome);
       }
 
       if(inputEmail.value.trim() === "" ) {
          mostrarErro(inputEmail, "E-mail não pode estar vazio");
+          formularioValido = false;
       } else if(!emailValido(inputEmail.value.trim())) {
          mostrarErro(inputEmail, "Parece que isso não é um e-mail válido");
+          formularioValido = false;
       } else {
         removerErro(inputEmail);
       }
 
-      if(inputEmail.value.trim() === "") {
+      if(inputSenha.value.trim() === "") {
          mostrarErro(inputSenha, "Senha não pode estar vazia");
+          formularioValido = false;
       } else if(!SenhaValida(inputSenha.value)) {
            mostrarErro(inputSenha, "Mínimo 8 caracteres, letras, números e um caractere especial");
+            formularioValido = false;
       }  else {
         removerErro(inputSenha);
+      }
+
+      if(formularioValido) {
+        window.location.href = "./sucesso.html";
       }
 }); 
 
