@@ -6,7 +6,7 @@ Formulário de inscrição com validação em JavaScript puro, desenvolvido como
 
 ## 🖥️ Demonstração
 
-![Preview do Projeto](./assets/img/bg_desktop.png)
+![Preview do Projeto](./assets/img/hero.png)
 
 ---
 
