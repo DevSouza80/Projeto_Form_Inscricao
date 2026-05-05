@@ -1,0 +1,212 @@
+/* Media Queries */
+@media screen and (max-width:1217px) {
+    .title-plataform h1 {
+
+        font-size: 2.2rem;
+        max-width: 520px;
+
+    }
+
+    .title-plataform p {
+
+        max-width: 520px;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:1140px) {
+
+    .title-plataform h1 {
+
+        font-size: 1.8rem;
+        max-width: 400px;
+
+    }
+
+    .title-plataform p {
+        max-width: 350px;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:959px) {
+
+    section.session-hero {
+        height: 130vh;
+    }
+
+
+    section.session-hero .flex-fill {
+        flex-direction: column;
+        padding: 60px 2%;
+    }
+
+
+    .title-plataform h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        max-width: 630px;
+        margin: 10px auto;
+
+    }
+
+    .title-plataform p {
+        text-align: center;
+        margin: 10px auto;
+        max-width: 580px;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+
+    .right-contents {
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width:625px) {
+
+
+    .title-plataform h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        max-width: 630px;
+        margin: 10px auto;
+
+    }
+
+    .title-plataform p {
+        text-align: center;
+        margin: 10px auto;
+        max-width: 500px;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+
+}
+
+@media screen and (max-width:586px) {
+
+
+
+    .title-plataform h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        max-width: 630px;
+        margin: 10px auto;
+
+    }
+
+    .title-plataform p {
+        text-align: center;
+        margin: 10px auto;
+        max-width: 500px;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+
+    .grop-blue {
+        width: 460px;
+        margin: 10px auto;
+    }
+
+    .grop-blue h3 {
+
+        font-size: 0.8rem;
+
+    }
+
+    .form-desk {
+
+        max-width: 550px;
+    }
+
+
+    form.form-register {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:567px) {
+
+    .title-plataform h1 {
+        font-size: 1.8rem;
+        max-width: 430px;
+        margin: 10px auto;
+
+    }
+
+    .title-plataform p {
+        font-size: 0.9rem;
+        max-width: 430px;
+    }
+
+}
+
+@media screen and (max-width:584px) {
+
+    .grop-blue {
+        width: 420px;
+        margin: 10px auto;
+    }
+
+    form.form-register {
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    .term-services p {
+
+        font-size: 0.6rem;
+
+    }
+
+    .term-services p a {
+
+        font-size: 0.7rem;
+
+    }
+
+}
+
+
+@media screen and (max-width:514px) {
+
+    .grop-blue {
+        width: 420px;
+        margin: 10px auto;
+    }
+
+    form.form-register {
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    .term-services p {
+
+        font-size: 0.6rem;
+
+    }
+
+    .term-services p a {
+
+        font-size: 0.7rem;
+
+    }
+
+}
+
+
+
+
+/***/
