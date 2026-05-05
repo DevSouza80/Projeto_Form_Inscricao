@@ -83,5 +83,4 @@ git clone https://github.com/seu-usuario/projeto-form-inscricao.git
 ---
 
 ## 👨‍💻 Autor
-
-Feito com 💙 durante minha jornada de aprendizado em desenvolvimento web.
+🎓 Desenvolvido para meu aprendizado.
